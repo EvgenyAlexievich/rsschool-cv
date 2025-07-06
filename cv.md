@@ -1,4 +1,4 @@
-# [rsschool-cv](https://github.com/EvgenyAlexievich/rsschool-cv.git)
+# [rsschool-cv](https://EvgenyAlexievich.github.io/rsschool-cv/cv)
 
 # Yauheni Aleksiyevich
 ## ![avatar](https://avatars.githubusercontent.com/u/196638459?v=4)
