@@ -1,9 +1,19 @@
+@media (max-width: 768px) {
+    .section {
+      width: 100%;
+    }
+  }
+
 head {
     font-size: 25px;
 }
 
 body {
     font-family: 'Cabin', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.5;
+    color:#4d2323;
     min-height: 100vh;
     margin: 0;
     padding: 0;
@@ -63,4 +73,19 @@ body {
 
 .section-item a:hover {
     color: #4d2323;
+}
+
+.my-photo {
+    width: 20%;
+    height: auto;
+    border-radius: 50%;
+}
+
+.main-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.section {
+    width: 50%;
 }
