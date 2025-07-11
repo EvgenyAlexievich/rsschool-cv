@@ -33,7 +33,7 @@ body {
 
 .header {
     background-color: white;
-    border: 1px solid blue;
+    border: 1px solid gray;
     padding: 10px;
     display: flex;
     align-items: center;
@@ -58,7 +58,7 @@ body {
 
 .nav {
     background-color: white;
-    border: 1px solid blue;
+    border: 1px solid gray;
     padding: 10px;
 }
 
@@ -87,7 +87,7 @@ body {
     display: flex;
     flex-wrap: wrap;
     background-color: white;
-    border: 1px solid blue;
+    border: 1px solid gray;
     padding: 10px;
 }
 
@@ -97,17 +97,17 @@ body {
 
 .footer-container {
     background-color: white;
-    border: 1px solid blue;
+    border: 1px solid gray;
     padding: 10px;
     display: flex;
-    justify-content: space-between;
-    display: flex;
     flex-wrap: wrap;
+    justify-content: space-between;
 }
 
 a:hover {
     cursor: pointer;
-    color: blue;
+    color: black;
+    background-color: gray;
 }
 
 a {
@@ -116,11 +116,7 @@ a {
 
 .li-section {
     width: 50%;
-    border-bottom: 1px solid blue;
-}
-
-.pre {
-    white-space: pre;;
+    border-bottom: 1px solid gray;
 }
 
 .pre {
@@ -128,9 +124,19 @@ a {
     padding: 15px;
     border-radius: 5px;
     overflow-x: auto;
+    white-space: pre;
 }
 
 .rs-logo {
-    width: 50%;
+    width: 150px;
     height: auto;
+}
+
+.rs-logo:hover {
+    background-color: gray;
+}
+
+.footer-logo {
+    display: flex;
+    align-items:center;
 }
