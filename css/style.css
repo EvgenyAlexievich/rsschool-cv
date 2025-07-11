@@ -1,8 +1,12 @@
 @media (max-width: 768px) {
-    .section {
-      width: 100%;
+    .main {
+        width: 100%;
     }
   }
+
+.html {
+    scroll-behavior: smooth;
+}
 
 head {
     font-size: 25px;
@@ -14,8 +18,8 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    min-height: 100vh;
     margin: auto;
+    min-height: 100vh;
     background-color: gray;
     font-family: 'Roboto', sans-serif;
     font-size: 18px;
@@ -31,33 +35,37 @@ body {
     background-color: white;
     border: 1px solid blue;
     padding: 10px;
+    display: flex;
+    align-items: center;
 }
+
 .header-container {
     display: flex;
     flex-wrap: wrap;
     justify-content: flex-start;
+    font-size: 1.5em;
 }
 
-.main {
-    background-color: white;
-    border: 1px solid blue;
-    padding: 10px;
-}
-
-.footer-container {
-    background-color: white;
-    border: 1px solid blue;
-    padding: 10px;
+.profile-section {
     display: flex;
-    width: 100%;
-    gap: 20px;
-    margin-bottom: 30px;
-    justify-content: space-between;
+    align-items: center;
+    margin: 30px;
 }
 
-.container {
-    max-width: 1440px;
-    margin: 0 auto;
+.header li {
+    white-space: nowrap;
+}
+
+.nav {
+    background-color: white;
+    border: 1px solid blue;
+    padding: 10px;
+}
+
+.my-photo {
+    width: 30%;
+    height: auto;
+    border-radius: 50%;
 }
 
 .nav-list {
@@ -69,11 +77,32 @@ body {
 
 }
 
-
 .nav-link {
     padding: 0 20px;
     line-height: 50px;
     transition: 0.3s;
+}
+
+.main {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: white;
+    border: 1px solid blue;
+    padding: 10px;
+}
+
+.li-section {
+    flex: 1 1 400px;
+}
+
+.footer-container {
+    background-color: white;
+    border: 1px solid blue;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 a:hover {
@@ -81,36 +110,14 @@ a:hover {
     color: blue;
 }
 
-.html {
-    scroll-behavior: smooth;
-}
-
-.section-item a {
-    color: #829985;
+a {
     text-decoration: none;
-    transition: color 0.5s;
-}
-
-.section-item a:hover {
-    color: #4d2323;
-}
-
-.my-photo {
-    width: 30%;
-    height: auto;
-    border-radius: 50%;
-}
-
-.main-container {
-    display: flex;
-    flex-wrap: wrap;
 }
 
 .li-section {
     width: 50%;
     border-bottom: 1px solid blue;
 }
-
 
 .pre {
     white-space: pre;;
@@ -123,19 +130,7 @@ a:hover {
     overflow-x: auto;
 }
 
-.header li {
-    white-space: nowrap;
-}
-
 .rs-logo {
     width: 50%;
     height: auto;
-}
-
-h1 {
-    font-size: 2em;
-}
-
-a {
-text-decoration: none;
 }
