@@ -4,7 +4,7 @@
     }
   }
 
-.html {
+html {
     scroll-behavior: smooth;
 }
 
@@ -19,7 +19,7 @@ body {
     flex-direction: column;
     justify-content: space-between;
     margin: auto;
-    min-height: 100vh;
+    min-height: 150vh;
     background-color: rgb(33, 30, 30);
     box-shadow: 2px 2px 5px rgba(6, 111, 143, 0.5);
     font-family: 'montserrat', sans-serif;
