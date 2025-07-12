@@ -20,12 +20,17 @@ body {
     justify-content: space-between;
     margin: auto;
     min-height: 100vh;
-    background-color: gray;
-    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
-    font-family: 'Roboto', sans-serif;
+    background-color: rgb(33, 30, 30);
+    box-shadow: 2px 2px 5px rgba(6, 111, 143, 0.5);
+    font-family: 'montserrat', sans-serif;
+    color: white;
     font-size: 18px;
     font-weight: 400;
     line-height: 1.5;
+}
+
+h2 {
+    color:#8fdcdd;
 }
 
 * {
@@ -33,7 +38,7 @@ body {
   }
 
 .header {
-    background-color: white;
+    background-color: #004b65;
     border: 1px solid gray;
     padding: 10px;
     display: flex;
@@ -51,6 +56,7 @@ body {
     display: flex;
     align-items: center;
     margin: 30px;
+    color: #8fdcdd;
 }
 
 .header li {
@@ -58,9 +64,9 @@ body {
 }
 
 .nav {
-    background-color: #f5f5f5;
+    background-color: #8fdcdd;
     border: 1px solid gray;
-    padding: 10px;
+    padding: 0;
 }
 
 .my-photo {
@@ -72,27 +78,45 @@ body {
 
 .nav-list {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     flex-wrap: wrap;
     align-items: center;
     list-style: none;
+    padding: 0;
+}
 
+.a-project:hover {
+    color: #004b65;
+}
+.a-project:visited {
+    color: white;
 }
 
 .nav-link {
-    padding: 0 20px;
+    padding: 0 10px;
     line-height: 50px;
-    transition: 0.3s;
+    transition: 0.5s;
 }
 
 .main {
     display: flex;
     flex-wrap: wrap;
-    background-color: white;
+    background-color: #004b65;
     border: 1px solid gray;
     padding: 10px;
 }
 
+ul {
+    padding-inline-end: 40px;
+}
+
+p {
+    padding-inline-end: 40px;
+}
+
+li::marker {
+    color:#8fdcdd
+}
 .li-section {
     flex: 1 1 400px;
 }
@@ -106,19 +130,22 @@ body {
     justify-content: space-between;
 }
 
-a:hover {
-    cursor: pointer;
-    color: black;
-    background-color: gray;
+a {
+    text-decoration: none;
+    position: relative;
+    display: inline-block;
 }
 
 a:visited {
     color: black;
 }
 
-a {
-    text-decoration: none;
+a:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+    color: #004b65;
 }
+
 
 .li-section {
     width: 50%;
@@ -126,24 +153,48 @@ a {
 }
 
 .pre {
-    background-color: #f5f5f5;
+    background-color: lightblue;
     border: 1px solid gray;
+    color: #004b65;
     padding: 15px;
     border-radius: 5px;
     overflow-x: auto;
     white-space: pre;
 }
-
+.footer-container {
+    background-color: #8fdcdd;
+}
 .rs-logo {
-    width: 150px;
+    width: 100px;
     height: auto;
 }
 
 .rs-logo:hover {
-    background-color: gray;
+    filter: invert(100%);
 }
 
 .footer-logo {
     display: flex;
     align-items:center;
+}
+
+.div-footer {
+    color: black;
+    font-weight: bold;
+}
+.div-footer:hover {
+    color: white;
+}
+
+.footer-block {
+    display: flex;
+    align-items: center;
+    transition: 0.5s;
+}
+
+.year-footer {
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    color: black;
 }
