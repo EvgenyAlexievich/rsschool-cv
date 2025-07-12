@@ -85,6 +85,10 @@ h2 {
     padding: 0;
 }
 
+.a-project{
+    color: white;
+}
+
 .a-project:hover {
     color: #004b65;
 }
