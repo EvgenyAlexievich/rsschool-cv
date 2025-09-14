@@ -5,7 +5,7 @@
 
 ## Contacts
 * Location: Minsk, Belarus
-* Phone: +375 33 6658272
+* Phone: +375 33 *******
 * Email: evgeny.alexievich@gmail.com
 * Telegram: @JordanAEV
 * GitHub: EvgenyAlexievich
